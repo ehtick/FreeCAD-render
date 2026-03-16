@@ -68,7 +68,6 @@ from renderplugin import (
     PluginMessageEvent,
 )
 
-
 MX_EVENT_TYPE = QEvent.registerEventType()
 
 # Remark: please do not use:

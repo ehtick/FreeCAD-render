@@ -23,7 +23,6 @@
 
 """This module implements GUI task panels for Render workbench."""
 
-
 import os
 import re
 import configparser

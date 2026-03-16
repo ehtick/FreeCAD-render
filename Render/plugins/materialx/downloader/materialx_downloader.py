@@ -45,7 +45,6 @@ from renderplugin import (
     SOCKET,
 )
 
-
 # Remark: please do not use:
 # - QWebEngineProfile.setDownloadPath
 # - QWebEngineDownloadItem.downloadFileName

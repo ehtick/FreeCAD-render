@@ -48,7 +48,6 @@ from Render.base import (
 )
 from Render.rdrhandler import RenderingTypes
 
-
 # Enumeration of allowed values for ViewportMapping parameter (see Coin
 # documentation)
 # Nota: Keep following tuple in original order, as relationship between

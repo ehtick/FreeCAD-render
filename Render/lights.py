@@ -25,7 +25,6 @@
 Light objects allow to illuminate rendering scenes.
 """
 
-
 # ===========================================================================
 #                           Module imports
 # ===========================================================================
@@ -46,7 +45,6 @@ from Render.base import (
     CoinDirectionalLightViewProviderMixin,
 )
 from Render.rdrhandler import RenderingTypes
-
 
 # ===========================================================================
 #                           Module functions

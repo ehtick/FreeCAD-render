@@ -36,7 +36,6 @@ renderers, as usual renderers expects meters as base unit.
 input colors in linear colorspace. A conversion is made.
 """
 
-
 # ===========================================================================
 #                                   Imports
 # ===========================================================================
@@ -56,7 +55,6 @@ from Render.utils import translate, debug, message, warn, getproxyattr, RGB
 from Render.constants import PARAMS
 from Render import renderables
 from Render import rendermaterial
-
 
 # ===========================================================================
 #                                  Constants

@@ -41,7 +41,6 @@ from qtpy.QtWidgets import (
 
 from renderplugin import ARGS, RenderPluginApplication
 
-
 THISDIR = os.path.dirname(__file__)
 
 
@@ -90,16 +89,13 @@ class HelpViewer(QWidget):
         css_path = os.path.join(scripts_dir, "waterlight.css")
         css_url = QUrl.fromLocalFile(css_path).url()
 
-        script_run_source = (
-            self.SCRIPT_GREASEBLOCK
-            + f"""\
+        script_run_source = self.SCRIPT_GREASEBLOCK + f"""\
         $.when( $.ready).then(function() {{
           var now_body = $("body").text();
           $("body").html( marked.parse(now_body) );
           $("head").append('<link rel="stylesheet" href="{css_url}">');
         }});
-        """
-        )  # Stylesheet credit: https://github.com/kognise/water.css
+        """  # Stylesheet credit: https://github.com/kognise/water.css
 
         # Insert scripts into Web view
         scripts = self.view.page().scripts()

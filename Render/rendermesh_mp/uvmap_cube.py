@@ -45,7 +45,6 @@ from vector3d import (
     barycenter,
 )
 
-
 # Vocabulary:
 # Point: a 3-tuple of float designing a point in 3D
 # Facet: a 3-tuple of indices (integer) pointing to 3 points in a point list

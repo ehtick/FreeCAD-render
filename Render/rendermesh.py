@@ -55,7 +55,6 @@ from Render.constants import PARAMS, MAX_FILENAME_LEN
 from Render.rendermesh_mp import vector3d
 from Render.utils import debug
 
-
 RenderMeshDirs = collections.namedtuple(
     "RenderMeshDirs",
     ("project_directory", "export_directory", "relative_path"),

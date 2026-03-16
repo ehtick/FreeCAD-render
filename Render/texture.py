@@ -36,7 +36,6 @@ import FreeCAD as App
 from Render.base import FeatureBase, ViewProviderBase, Prop, CtxMenuItem
 from Render.utils import translate
 
-
 ImageId = namedtuple("ImageId", "texture image")
 
 

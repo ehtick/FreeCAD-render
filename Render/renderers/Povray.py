@@ -50,7 +50,6 @@ import FreeCAD as App
 
 from .utils.misc import fovy_to_fovx
 
-
 TEMPLATE_FILTER = "Povray templates (povray_*.pov)"
 
 mimetypes.init()

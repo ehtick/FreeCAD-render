@@ -29,7 +29,6 @@ module provides the function to convert a FreeCAD object into a collection of
 Renderables
 """
 
-
 # ===========================================================================
 #                                   Imports
 # ===========================================================================
@@ -81,7 +80,6 @@ from Render.utils import (
 )
 from Render.rendermaterial import is_multimat, is_valid_material
 from Render.rdrexecutor import exec_in_mainthread
-
 
 # ===========================================================================
 #                                   Exports

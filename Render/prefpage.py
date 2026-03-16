@@ -54,7 +54,6 @@ from Render.constants import PREFPAGE
 from Render.rdrhandler import RendererHandler
 from Render.virtualenv import ensure_rendervenv, remove_virtualenv
 
-
 # ===========================================================================
 #                                Main class
 # ===========================================================================
