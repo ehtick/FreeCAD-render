@@ -53,7 +53,6 @@ from Render.lights import (
 from Render.rendermaterial import is_multimat
 from Render.subcontainer import start_plugin
 
-
 # ===========================================================================
 #                  Mixins (additional features for commands)
 # ===========================================================================

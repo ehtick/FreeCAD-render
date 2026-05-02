@@ -38,7 +38,6 @@ from itertools import permutations, groupby, starmap
 from multiprocessing import shared_memory
 import multiprocessing as mp
 
-
 try:
     import numpy as np
     from numpy import bitwise_or, left_shift

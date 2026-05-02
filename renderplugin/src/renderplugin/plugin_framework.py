@@ -25,6 +25,7 @@
 A plugin is an applet that can be launched by Render in a separate process,
 with an access to Render virtual environment.
 """
+
 import sys
 import os
 import signal
@@ -44,7 +45,6 @@ from qtpy.QtCore import (
     QEvent,
 )
 from qtpy.QtWidgets import QApplication, QMainWindow, QMessageBox
-
 
 sys.path.append(os.getcwd())
 

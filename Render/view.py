@@ -27,7 +27,6 @@ The rendering view designates a FreeCad object to be rendered as part of a
 rendering project.
 """
 
-
 from PySide.QtCore import QT_TRANSLATE_NOOP
 
 from Render.constants import FCDVERSION

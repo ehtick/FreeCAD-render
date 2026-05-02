@@ -28,12 +28,10 @@ light, as Cycles does not provide such a feature.
 Usage: one may essentially use 'sunlight' function
 """
 
-
 import bisect
 import numbers
 from math import exp, cos, pi as PI, radians
 from collections import namedtuple
-
 
 # ===========================================================================
 #                               Photometric data

@@ -25,6 +25,7 @@
 
 It imports all the public symbols which make up the Render Workbench API.
 """
+
 import FreeCAD as App
 
 App.Console.PrintLog("[Render][Init] Starting Render initialization\n")

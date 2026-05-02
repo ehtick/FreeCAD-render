@@ -51,7 +51,6 @@ from Render.utils import (
 )
 from Render.texture import str2imageid, str2imageid_ext
 
-
 # ===========================================================================
 #                            Standard materials
 # ===========================================================================
